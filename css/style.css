@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        div, ul, li, h3, h5, input, p, u, img, h2, form{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            letter-spacing: 6px;
+            font-family: timenewroman;
+            font-weight: bolder;
+        }
+
+        li{
+        	
+        }
+
+        li a:hover{
+        	color: orange !important;
+        }
+
+        .formk input:focus{
+        	display: block;
+	        outline: none;
+	        border-bottom: 1px solid silver;
+        }
+        .btn1{
+        	border: none;
+        	border-bottom: 1px solid steeblue;
+        }
+        .btn1:hover{
+        	color:orange !important;
+        }
+        .btn{
+        	margin-top: 25px;
+
+        }
+
+        .hh:hover{
+        	border-style: double;
+        	background: yellow;
+        	color: blue;
+        }
+
+        .h:hover{
+        	border-style: bolder;
+        	width: 313px;
+        	color: blue;
+        }
+
+        #website{
+        	height: 100vh;
+			width: 100%;
+			background-image: url('../bg.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+        }
+
+        .by {
+        	width: 30%;
+            height: 450px;
+            overflow: auto;
+            border: solid orange;
+        }
+
+        .by h3 {
+            position: sticky;
+            top: 0px;
+        }
+
+        .hh:hover{
+        	border-style: bolder;
+        	
+        	background: steelblue;
+        	color: white;
+        }
+
+        .list1 {
+            list-style: none;
+            padding: 15px 0;
+            margin-left: 40px;
+        }
+        .dis{
+        	display: flex;
+        	border: solid orange;
+        	width: 100%;
+       
+        }
+
+        .test{
+        	display: flex;
+        	width: 1024px;
+        	margin: 20px auto;
+
+        }
+
+        .text{
+        	font-family: timenewroman;
+        	font-size: 15px;
+        	letter-spacing: 2px;
+        }
+        .foot{
+        	display: flex;
+        	margin: 0 20px;
+        }
+        .foot form{
+        	flex-grow: 1;
+        }
+        .foot input{
+        	width: 300px;
+        }
+        .icon i{
+        	color: blue;
+        	width: 30px;
+        	margin-left: 5px;
+        }
+        .icon i:hover{
+        	color: orange !important;
+        }
+        .foot1{
+        	display: flex;
+        	color:blue;
+        }
+        .about{
+        	flex-grow: 1;
+        	display: flex;
+        }
+        .reg{
+        	display: flex;
+        }
+        .regs{
+        	flex-grow: 1;
+        	display: flex;
+        }
